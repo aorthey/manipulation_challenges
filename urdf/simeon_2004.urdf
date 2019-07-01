@@ -1,0 +1,8 @@
+<?xml version="1.0"?>
+<!-- created with Phobos 0.7 -->
+  <robot name="simeon_2004">
+
+    <link name="floor">
+    </link>
+
+  </robot>
