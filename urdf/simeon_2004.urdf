@@ -2,7 +2,250 @@
 <!-- created with Phobos 0.7 -->
   <robot name="simeon_2004">
 
-    <link name="floor">
+    <link name="blocks">
+      <visual name="block_center_visual">
+        <origin xyz="-0.17599 0.11132 -0.15001" rpy="0 0 0"/>
+        <geometry>
+          <box size="1.0 1.0 0.3"/>
+        </geometry>
+        <material name="Material.003"/>
+      </visual>
+      <visual name="block_left_visual">
+        <origin xyz="-2.17599 0.11132 -0.15001" rpy="0 0 0"/>
+        <geometry>
+          <box size="3.0 0.3 0.3"/>
+        </geometry>
+        <material name="Material.005"/>
+      </visual>
+      <visual name="block_right_visual">
+        <origin xyz="1.82401 0.11132 -0.15001" rpy="0 0 0"/>
+        <geometry>
+          <box size="3.0 0.3 0.3"/>
+        </geometry>
+        <material name="Material.005"/>
+      </visual>
+      <collision name="Cube.001">
+        <origin xyz="1.82401 0.11132 -0.15001" rpy="0 0 0"/>
+        <geometry>
+          <box size="3.0 0.3 0.3"/>
+        </geometry>
+      </collision>
+      <collision name="Cube.002">
+        <origin xyz="-2.17599 0.11132 -0.15001" rpy="0 0 0"/>
+        <geometry>
+          <box size="3.0 0.3 0.3"/>
+        </geometry>
+      </collision>
+      <collision name="Cube.003">
+        <origin xyz="-0.17599 0.11132 -0.15001" rpy="0 0 0"/>
+        <geometry>
+          <box size="1.0 1.0 0.3"/>
+        </geometry>
+      </collision>
     </link>
+
+    <link name="cage_bars">
+      <visual name="bar_01_visual">
+        <origin xyz="-1.25265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+        <material name="Material.004"/>
+      </visual>
+      <visual name="bar_02_visual">
+        <origin xyz="-1.05265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+        <material name="Material.004"/>
+      </visual>
+      <visual name="bar_03_visual">
+        <origin xyz="-0.85265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+        <material name="Material.004"/>
+      </visual>
+      <visual name="bar_04_visual">
+        <origin xyz="-0.65265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+        <material name="Material.004"/>
+      </visual>
+      <visual name="bar_05_visual">
+        <origin xyz="-0.45265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+        <material name="Material.004"/>
+      </visual>
+      <visual name="bar_06_visual">
+        <origin xyz="0.24735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+        <material name="Material.004"/>
+      </visual>
+      <visual name="bar_07_visual">
+        <origin xyz="0.44735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+        <material name="Material.004"/>
+      </visual>
+      <visual name="bar_08_visual">
+        <origin xyz="0.64735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+        <material name="Material.004"/>
+      </visual>
+      <visual name="bar_09_visual">
+        <origin xyz="0.84735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+        <material name="Material.004"/>
+      </visual>
+      <visual name="bar_10_visual">
+        <origin xyz="1.04735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+        <material name="Material.004"/>
+      </visual>
+      <collision name="bar_01_collision">
+        <origin xyz="-1.25265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+      </collision>
+      <collision name="bar_02_collision">
+        <origin xyz="-1.05265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+      </collision>
+      <collision name="bar_03_collision">
+        <origin xyz="-0.85265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+      </collision>
+      <collision name="bar_04_collision">
+        <origin xyz="-0.65265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+      </collision>
+      <collision name="bar_05_collision">
+        <origin xyz="-0.45265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+      </collision>
+      <collision name="bar_06_collision">
+        <origin xyz="0.24735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+      </collision>
+      <collision name="bar_07_collision">
+        <origin xyz="0.44735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+      </collision>
+      <collision name="bar_08_collision">
+        <origin xyz="0.64735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+      </collision>
+      <collision name="bar_09_collision">
+        <origin xyz="0.84735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+      </collision>
+      <collision name="bar_10_collision">
+        <origin xyz="1.04735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
+        <geometry>
+          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="floor">
+      <visual name="floor_visual">
+        <origin xyz="0.85774 0.60024 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="9.04809 9.04809 0"/>
+        </geometry>
+        <material name="Material.006"/>
+      </visual>
+      <collision name="Plane.000">
+        <origin xyz="0.85774 0.60024 0" rpy="0 0 0"/>
+        <geometry>
+          <box size="9.04809 9.04809 0"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <link name="object">
+      <inertial>
+        <origin xyz="0 0 0" rpy="0 0 0"/>
+        <mass value="1.0"/>
+        <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
+      </inertial>
+      <visual name="object_visual">
+        <origin xyz="-0.0711 0.00858 0.05881" rpy="0 0 0"/>
+        <geometry>
+          <box size="2.0 0.16 0.16"/>
+        </geometry>
+      </visual>
+      <collision name="Cube.004.000">
+        <origin xyz="-0.0711 0.00858 0.05881" rpy="0 0 0"/>
+        <geometry>
+          <box size="2.0 0.16 0.16"/>
+        </geometry>
+      </collision>
+    </link>
+
+    <joint name="blocks" type="fixed">
+      <origin xyz="1.03374 0.48892 0.30001" rpy="0 0 0"/>
+      <parent link="floor"/>
+      <child link="blocks"/>
+    </joint>
+
+    <joint name="cage_bars" type="floating">
+      <origin xyz="0.85774 0.60024 0" rpy="0 0 0"/>
+      <parent link="floor"/>
+      <child link="cage_bars"/>
+    </joint>
+
+    <joint name="object" type="floating">
+      <origin xyz="0.85774 -1.40834 0.03" rpy="0 0 0"/>
+      <parent link="floor"/>
+      <child link="object"/>
+      <limit effort="0" velocity="0"/>
+    </joint>
+
+    <material name="Material.003">
+      <color rgba="0.00646 0.00646 0.00646 1.0"/>
+    </material>
+
+    <material name="Material.004">
+      <color rgba="0.01942 0.06069 0.72 1.0"/>
+    </material>
+
+    <material name="Material.005">
+      <color rgba="0.02584 0.02056 0.72 1.0"/>
+    </material>
+
+    <material name="Material.006">
+      <color rgba="0.8 0.71791 0.11526 1.0"/>
+    </material>
 
   </robot>
