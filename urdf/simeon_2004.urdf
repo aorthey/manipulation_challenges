@@ -193,13 +193,13 @@
       </collision>
     </link>
 
-    <link name="object">
+    <link name="obj1">
       <inertial>
         <origin xyz="0 0 0" rpy="0 0 0"/>
         <mass value="1.0"/>
         <inertia ixx="0.001" ixy="0" ixz="0" iyy="0.001" iyz="0" izz="0.001"/>
       </inertial>
-      <visual name="object_visual">
+      <visual name="obj1_visual">
         <origin xyz="-0.0711 0.00858 0.05881" rpy="0 0 0"/>
         <geometry>
           <box size="2.0 0.16 0.16"/>
@@ -225,10 +225,10 @@
       <child link="cage_bars"/>
     </joint>
 
-    <joint name="object" type="floating">
+    <joint name="obj1" type="floating">
       <origin xyz="0.85774 -1.40834 0.03" rpy="0 0 0"/>
       <parent link="floor"/>
-      <child link="object"/>
+      <child link="obj1"/>
       <limit effort="0" velocity="0"/>
     </joint>
 
