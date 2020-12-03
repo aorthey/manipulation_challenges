@@ -1,0 +1,227 @@
+<?xml version="1.0"?>
+<robot name="alpha-1.0.obj">
+ <link name="alpha-1.0-1.obj">
+  <inertial>
+    <mass value="1"/>
+    <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-1.obj"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-1.obj"/>
+    </geometry>
+  </collision>
+ </link>
+
+ <link name="alpha-1.0-2.obj">
+  <inertial>
+    <mass value="1"/>
+    <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-2.obj"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-2.obj"/>
+    </geometry>
+  </collision>
+ </link>
+
+<joint name="joint_fixed_alpha-1.0-2.obj_alpha-1.0-1.obj" type="fixed">
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+  <parent link="alpha-1.0-2.obj"/>
+  <child link="alpha-1.0-1.obj"/>
+</joint>
+
+ <link name="alpha-1.0-3.obj">
+  <inertial>
+    <mass value="1"/>
+    <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-3.obj"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-3.obj"/>
+    </geometry>
+  </collision>
+ </link>
+
+<joint name="joint_fixed_alpha-1.0-3.obj_alpha-1.0-2.obj" type="fixed">
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+  <parent link="alpha-1.0-3.obj"/>
+  <child link="alpha-1.0-2.obj"/>
+</joint>
+
+ <link name="alpha-1.0-4.obj">
+  <inertial>
+    <mass value="1"/>
+    <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-4.obj"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-4.obj"/>
+    </geometry>
+  </collision>
+ </link>
+
+<joint name="joint_fixed_alpha-1.0-4.obj_alpha-1.0-3.obj" type="fixed">
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+  <parent link="alpha-1.0-4.obj"/>
+  <child link="alpha-1.0-3.obj"/>
+</joint>
+
+ <link name="alpha-1.0-5.obj">
+  <inertial>
+    <mass value="1"/>
+    <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-5.obj"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-5.obj"/>
+    </geometry>
+  </collision>
+ </link>
+
+<joint name="joint_fixed_alpha-1.0-5.obj_alpha-1.0-4.obj" type="fixed">
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+  <parent link="alpha-1.0-5.obj"/>
+  <child link="alpha-1.0-4.obj"/>
+</joint>
+
+ <link name="alpha-1.0-6.obj">
+  <inertial>
+    <mass value="1"/>
+    <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-6.obj"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-6.obj"/>
+    </geometry>
+  </collision>
+ </link>
+
+<joint name="joint_fixed_alpha-1.0-6.obj_alpha-1.0-5.obj" type="fixed">
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+  <parent link="alpha-1.0-6.obj"/>
+  <child link="alpha-1.0-5.obj"/>
+</joint>
+
+ <link name="alpha-1.0-7.obj">
+  <inertial>
+    <mass value="1"/>
+    <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-7.obj"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-7.obj"/>
+    </geometry>
+  </collision>
+ </link>
+
+<joint name="joint_fixed_alpha-1.0-7.obj_alpha-1.0-6.obj" type="fixed">
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+  <parent link="alpha-1.0-7.obj"/>
+  <child link="alpha-1.0-6.obj"/>
+</joint>
+
+ <link name="alpha-1.0-8.obj">
+  <inertial>
+    <mass value="1"/>
+    <inertia ixx="1" ixy="0" ixz="0" iyy="1" iyz="0" izz="1"/>
+  </inertial>
+  <visual>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-8.obj"/>
+    </geometry>
+  </visual>
+  <collision>
+    <origin rpy="0 0 0" xyz="0 0 0"/>
+    <geometry>
+      <mesh filename="meshes/alpha-1.0-8.obj"/>
+    </geometry>
+  </collision>
+ </link>
+
+<joint name="joint_fixed_alpha-1.0-8.obj_alpha-1.0-7.obj" type="fixed">
+  <origin rpy="0 0 0" xyz="0 0 0"/>
+  <parent link="alpha-1.0-8.obj"/>
+  <child link="alpha-1.0-7.obj"/>
+</joint>
+
+<klampt package_root="../../.." default_acc_max="4" >
+<noselfcollision pairs="alpha-1.0-1.obj alpha-1.0-2.obj" />
+<noselfcollision pairs="alpha-1.0-1.obj alpha-1.0-3.obj" />
+<noselfcollision pairs="alpha-1.0-1.obj alpha-1.0-4.obj" />
+<noselfcollision pairs="alpha-1.0-1.obj alpha-1.0-5.obj" />
+<noselfcollision pairs="alpha-1.0-1.obj alpha-1.0-6.obj" />
+<noselfcollision pairs="alpha-1.0-1.obj alpha-1.0-7.obj" />
+<noselfcollision pairs="alpha-1.0-1.obj alpha-1.0-8.obj" />
+<noselfcollision pairs="alpha-1.0-2.obj alpha-1.0-3.obj" />
+<noselfcollision pairs="alpha-1.0-2.obj alpha-1.0-4.obj" />
+<noselfcollision pairs="alpha-1.0-2.obj alpha-1.0-5.obj" />
+<noselfcollision pairs="alpha-1.0-2.obj alpha-1.0-6.obj" />
+<noselfcollision pairs="alpha-1.0-2.obj alpha-1.0-7.obj" />
+<noselfcollision pairs="alpha-1.0-2.obj alpha-1.0-8.obj" />
+<noselfcollision pairs="alpha-1.0-3.obj alpha-1.0-4.obj" />
+<noselfcollision pairs="alpha-1.0-3.obj alpha-1.0-5.obj" />
+<noselfcollision pairs="alpha-1.0-3.obj alpha-1.0-6.obj" />
+<noselfcollision pairs="alpha-1.0-3.obj alpha-1.0-7.obj" />
+<noselfcollision pairs="alpha-1.0-3.obj alpha-1.0-8.obj" />
+<noselfcollision pairs="alpha-1.0-4.obj alpha-1.0-5.obj" />
+<noselfcollision pairs="alpha-1.0-4.obj alpha-1.0-6.obj" />
+<noselfcollision pairs="alpha-1.0-4.obj alpha-1.0-7.obj" />
+<noselfcollision pairs="alpha-1.0-4.obj alpha-1.0-8.obj" />
+<noselfcollision pairs="alpha-1.0-5.obj alpha-1.0-6.obj" />
+<noselfcollision pairs="alpha-1.0-5.obj alpha-1.0-7.obj" />
+<noselfcollision pairs="alpha-1.0-5.obj alpha-1.0-8.obj" />
+<noselfcollision pairs="alpha-1.0-6.obj alpha-1.0-7.obj" />
+<noselfcollision pairs="alpha-1.0-6.obj alpha-1.0-8.obj" />
+<noselfcollision pairs="alpha-1.0-7.obj alpha-1.0-8.obj" />
+</klampt>
+</robot>

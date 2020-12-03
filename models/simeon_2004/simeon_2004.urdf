@@ -48,131 +48,131 @@
       <visual name="bar_01_visual">
         <origin xyz="-1.25265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
         <material name="Material.004"/>
       </visual>
       <visual name="bar_02_visual">
         <origin xyz="-1.05265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
         <material name="Material.004"/>
       </visual>
       <visual name="bar_03_visual">
         <origin xyz="-0.85265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
         <material name="Material.004"/>
       </visual>
       <visual name="bar_04_visual">
         <origin xyz="-0.65265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
         <material name="Material.004"/>
       </visual>
       <visual name="bar_05_visual">
         <origin xyz="-0.45265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
         <material name="Material.004"/>
       </visual>
       <visual name="bar_06_visual">
         <origin xyz="0.24735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
         <material name="Material.004"/>
       </visual>
       <visual name="bar_07_visual">
         <origin xyz="0.44735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
         <material name="Material.004"/>
       </visual>
       <visual name="bar_08_visual">
         <origin xyz="0.64735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
         <material name="Material.004"/>
       </visual>
       <visual name="bar_09_visual">
         <origin xyz="0.84735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
         <material name="Material.004"/>
       </visual>
       <visual name="bar_10_visual">
         <origin xyz="1.04735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
         <material name="Material.004"/>
       </visual>
       <collision name="bar_01_collision">
         <origin xyz="-1.25265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
       </collision>
       <collision name="bar_02_collision">
         <origin xyz="-1.05265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
       </collision>
       <collision name="bar_03_collision">
         <origin xyz="-0.85265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
       </collision>
       <collision name="bar_04_collision">
         <origin xyz="-0.65265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
       </collision>
       <collision name="bar_05_collision">
         <origin xyz="-0.45265 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
       </collision>
       <collision name="bar_06_collision">
         <origin xyz="0.24735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
       </collision>
       <collision name="bar_07_collision">
         <origin xyz="0.44735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
       </collision>
       <collision name="bar_08_collision">
         <origin xyz="0.64735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
       </collision>
       <collision name="bar_09_collision">
         <origin xyz="0.84735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
       </collision>
       <collision name="bar_10_collision">
         <origin xyz="1.04735 -1.87223 0.09" rpy="1.5708 0 1.5708"/>
         <geometry>
-          <mesh filename="../meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
+          <mesh filename="meshes/dae/lattice_bar_geometry.dae" scale="0.40575 0.40575 0.40575"/>
         </geometry>
       </collision>
     </link>
